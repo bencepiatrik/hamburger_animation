@@ -1,0 +1,56 @@
+:root {
+  --main-dark: #252525;
+}
+
+body {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.open-container {
+  display: block;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  transform: scale(2) rotateY(180deg);
+  cursor: pointer;
+  z-index: 250;
+}
+
+.open-container .open-bar-1 {
+  top: 0;
+  width: 25px;
+  height: 10px;
+  background: var(--main-dark);
+  margin-bottom: 5px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.open-container .open-bar-2 {
+  width: 37.5px;
+  height: 10px;
+  background: var(--main-dark);
+  margin-bottom: 5px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.open-container .open-bar-3 {
+  padding-left: 0;
+  padding-right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 10px;
+  background: var(--main-dark);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.open-container .open-bars {
+  position: relative;
+  right: 0%;
+}
